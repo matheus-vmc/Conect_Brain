@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer{
+    .text-color{
+        color: #7C137B;
+    }
+
+}
+@theme{
+    --spacing-14:3.5rem;
+    --spacing-125px:125px;
+    --font-size-9x1: 9rem;
+    --color-hovercntbn: #7C137B;
+
+
+
+}

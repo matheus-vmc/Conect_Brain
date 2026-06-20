@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Barra de Navegação-->
+ <header>
+        <div class="flex fixed bg-white border-purple-400 border-2 w-full px-3 md:px-20 py-4">
+            <div class="container flex items-center mx-auto gap-5">
+                <a href="index.html"><img src="img/logo1.png" alt="Conect Brain" class="w-15 md:w-115px "></a>
+                <p class="font-bold text-color">Conect Brain</p>
+                
+                <div class="items-end flex-1 text-black font-bold hidden md:flex">
+                    <nav class="flex-1">
+                        <ul class="flex justify-end flex-1">
+                            <li class="px-4"><a href="index.html" class="hover:text-hovercntbn text-sm">Home</a></li>
+                            <li class="px-4"><a href="index2.html" class="hover:text-hovercntbn text-sm">O que é</a></li>
+                            <li class="px-4"><a href="index3.html" class="hover:text-hovercntbn text-sm">Sinais</a></li>
+                            <li class="px-4"><a href="index4.html" class="hover:text-hovercntbn text-sm">Dicas</a></li>
+                            <li class="px-4"><a href="index5.html" class="hover:text-hovercntbn text-sm">Ajuda</a></li>
+                            <li class="px-4"><a href="index6.html" class="hover:text-hovercntbn text-sm">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--Conteúdo-->
+<main class="min-h-screen  flex flex-col items-center justify-center p-4 font-sans">
+
+        <div class="bg-white h-150 flex items-center justify-between px-50">
+         <div class="flex flex-col gap-4">
+                <h1 class="text-black text-6xl font-bold ">Fale Conosco</h1>
+                <p class="text-black  px-2">Envie sua mensagem, dúvida ou sugestão. Estamos aqui para te ouvir.</p>
+         </div>
+            <img src="img5/obj1.png" alt="aviso" class="w-96 h-auto rounded-lg">
+        </div>
+    <br>
+
+    <div class="w-full max-w-xl bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-10">
+        
+        
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-black tracking-tight mb-1">Fale Conosco</h1>
+            <p class="text-sm text-slate-500">Envie sua mensagem, dúvida ou sugestão. Estamos aqui para ajudar.</p>
+        </header>
+
+       
+        <form class="space-y-6">
+            
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="flex flex-col gap-1.5">
+                    <label class="text-sm font-semibold text-black">Nome</label>
+                    <input type="text" name="nome" required 
+                           class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-all shadow-sm">
+                </div>
+                
+                <div class="flex flex-col gap-1.5">
+                    <label class="text-sm font-semibold text-black">Sobrenome</label>
+                    <input type="text" name="Sobrenome" required 
+                           class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-all shadow-sm">
+                </div>
+            </div>
+
+            
+            <div class="flex flex-col gap-1.5">
+                <label class="text-sm font-semibold text-black">Email</label>
+                <input type="email" name="email" required
+                       class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-all shadow-sm"
+                       placeholder="seu@email.com">
+            </div>
+
+            
+            <div class="flex flex-col gap-1.5">
+                <label class="text-sm font-semibold text-slate-700">Mande uma mensagem:</label>
+                <textarea rows="5" name="mensagem" required
+                          class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-all shadow-sm resize-none"
+                          placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+
+            
+            <div class="pt-4 flex justify-center">
+                <button type="submit" 
+                        class="px-8 py-2.5 bg-purple-600 hover:bg-purple-800 text-white font-medium rounded-lg transition-colors shadow-sm focus:purple-none focus:ring-2 focus:ring-purple-500/50">
+                    Enviar Mensagem
+                </button>
+            </div>
+            
+        </form>
+    </div>
+</main>
+
+
+<!--Rodapé-->
+<footer>
+        <div class="grid grid-cols-1 md:grid-cols-6 bg-purple-700 text-white p-4 md:p-20">
+            <div class="md:col-span">
+                <a href="#">
+                    <img src="img/logo1.png" alt="conect Brain">
+                </a>
+            </div>
+            <div class="md:col-span-1 pt-10 md:pt-0">
+                <h3 class="uppercase text-white font-bold text-xs tracking-widest mb-5 ">Navegação</h3>
+                <ul>
+                    <li class="mb-5"><a href="index.html">Home</a></li>
+                    <li class="mb-5"><a href="index2.html">O que é?</a></li>
+                    <li class="mb-5"><a href="index3.html">Sinais</a></li>
+                    <li class="mb-5"><a href="index4.html">Dicas</a></li>
+                    <li class="mb-5"><a href="index5.html">Ajuda</a></li>
+                    <li class="mb-5"><a href="index6.html">Contato</a></li>
+
+                </ul>
+            </div>
+            <div class="md:col-span-1 pt-10 md:pt-4">
+                <h3 class="uppercase text-white font-bold text-xs tracking-widest mb-5 ">Contato</h3>
+                    <ul class="flex flex-col gap-4 text-white">
+                        <li class="flex items-center gap-3">
+                            <div class="flex items-center justify-center bg-purple-500 w-12 h-12 rounded-full ">
+                                 <i class="fa fa-envelope"></i>
+                            </div>
+                            <span class="text-sm font-medium">contato@ConectBrain</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="flex items-center justify-center bg-purple-500 w-12 h-12 rounded-full ">
+                                 <i class="fa fa-phone"></i>
+                            </div>
+                            <span class="text-sm font-medium">(99)9999-9990</span>
+                        </li>
+                    </ul>
+
+                <ul class="flex md:justify-end md:pt-4 ">
+                    
+                    <li class="flex items-center justify-center  bg-purple-500 w-12 h-12 rounded-full hover:text-hovercntbn mx-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="flex items-center justify-center  bg-purple-500 w-12 h-12 rounded-full hover:text-hovercntbn mx-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="flex items-center justify-center  bg-purple-500 w-12 h-12 rounded-full hover:text-hovercntbn mx-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-1  md:pt-4">
+                <h3 class="uppercase text-white font-bold text-xs tracking-widest mb-5 mx-10 ">Lembre-se</h3>
+                <p class="mx-10">Sua saúde mental importa. Pequenos passos fazem grandes transformações.</p>
+            </div>
+            <div class="md:col-span-2 mt-20">
+                <p class="flex justify-end text-gray-500 text-xs">&copy; 2026 ConectBrain. Todos os direitos reservados.</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
